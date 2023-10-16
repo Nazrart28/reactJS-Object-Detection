@@ -1,3 +1,16 @@
+# Install COCO-SSD dengan perintah :
+
+npm install @tensorflow/tfjs @tensorflow-models/coco-ssd
+
+# Persyaratan :
+
+- Node.js dan npm
+- Web browser dengan dukungan WebRTC untuk akses kamera
+
+Note : jika error mungkin react-scripts nya belum diinstal di terminal. cara install : 
+npm install react-scripts --save
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

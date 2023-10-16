@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -12,6 +17,32 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* App.css */
+
+video, canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* App.css */
+
+div {
+  position: relative;
+  width: 640px;
+  height: 480px;
+}
+
+video {
+  width: 640px;
+  height: 480px;
+}
+
+canvas {
+  width: 640px;
+  height: 480px;
+}
+
 
 .App-header {
   background-color: #282c34;
